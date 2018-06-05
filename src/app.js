@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import 'normalize.css/normalize.css';
 import './styles/styles.scss';
 
-import DashboardPage from './components/DashboardPage';
+import WithDrawForm from './components/DashBoardPage';
 
-ReactDOM.render(<DashboardPage />, document.getElementById('app'));
+ReactDOM.render(<WithDrawForm />, document.getElementById('app'));
 
 
